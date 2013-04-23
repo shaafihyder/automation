@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="420437" started-at="2013-04-08T19:23:48Z" finished-at="2013-04-08T19:30:49Z">
+    <groups>
+      <group name="SPARQLQuery">
+        <method signature="Testcase000SparqlQueryTest.Test()[pri:0, instance:com.project.automated.framework.sparqlquery.Testcase000SparqlQueryTest@4839e5b5]" name="Test" class="com.project.automated.framework.sparqlquery.Testcase000SparqlQueryTest"/>
+      </group> <!-- SPARQLQuery -->
+    </groups>
+    <test name="Default test" duration-ms="420437" started-at="2013-04-08T19:23:48Z" finished-at="2013-04-08T19:30:49Z">
+      <class name="com.project.automated.framework.sparqlquery.Testcase000SparqlQueryTest">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.project.automated.framework.sparqlquery.Testcase000SparqlQueryTest@4839e5b5]" name="BeforeTest" is-config="true" duration-ms="150" started-at="2013-04-08T12:23:48Z" finished-at="2013-04-08T12:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:com.project.automated.framework.sparqlquery.Testcase000SparqlQueryTest@4839e5b5]" name="Test" duration-ms="250569" started-at="2013-04-08T12:23:49Z" finished-at="2013-04-08T12:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.project.automated.framework.sparqlquery.Testcase000SparqlQueryTest@4839e5b5]" name="AfterTest" is-config="true" duration-ms="169705" started-at="2013-04-08T12:27:59Z" finished-at="2013-04-08T12:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.project.automated.framework.sparqlquery.Testcase000SparqlQueryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

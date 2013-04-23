@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots
+END
+Testcase_CaptureScrenshotTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/Testcase_CaptureScrenshotTest.jpg
+END
+TestcaseSelectTabDashboardTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/TestcaseSelectTabDashboardTest.jpg
+END
+TestcaseLaunchLoginUrikaTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/TestcaseLaunchLoginUrikaTest.jpg
+END
+TestcaseLaunchQuitUrikaTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/TestcaseLaunchQuitUrikaTest.jpg
+END
+TestcaseSearchDataFileTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/TestcaseSearchDataFileTest.jpg
+END
+TestcaseAddLocalDataFileTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/TestcaseAddLocalDataFileTest.jpg
+END
+TestcaseDeleteDataFileTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/TestcaseDeleteDataFileTest.jpg
+END
+TestcaseSelectTabManageDataTest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/resources/Screenshots/TestcaseSelectTabManageDataTest.jpg
+END

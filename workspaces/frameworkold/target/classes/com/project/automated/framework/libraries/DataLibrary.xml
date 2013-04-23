@@ -1,0 +1,21 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>This XML file holds data for test-cases</comment>
+	<entry key="sparqlquery.Testcase001SparqlQueryTest.sQuery001">AA SHAAFI IS A ... \n tata</entry>
+	<entry key="sparqlquery.Testcase002SparqlQueryTest.sQuery002">BB</entry>
+	<entry key="sparqlquery.Testcase003SparqlQueryTest.sQuery003">CC</entry>
+	<entry key="sparqlquery.Testcase004SparqlQueryTest.sQuery004">DD</entry>
+	<entry key="sparqlquery.Testcase005SparqlQueryTest.sQuery005">EE</entry>
+	<entry key="sparqlquery.Testcase006SparqlQueryTest.sQuery006">FF</entry>
+	
+	
+	<entry key="queryhistory.Testcase001QueryHistoryTest.SearchText">Select</entry>
+	<entry key="queryhistory.Testcase002QueryHistoryTest.sExecutedby">user-2</entry>
+	<entry key="queryhistory.Testcase003QueryHistoryTest.sExecutedon1">02/19/2013</entry>
+	<entry key="queryhistory.Testcase004QueryHistory.sDatabaseid">sample-db</entry>
+	<entry key="queryhistory.Testcase005QueryHistoryTest.sStatus">COMPLETE</entry>
+	<entry key="queryhistory.Testcase006QueryHistoryTest.sQueryType">ALL</entry>
+   
+</properties>
+
+

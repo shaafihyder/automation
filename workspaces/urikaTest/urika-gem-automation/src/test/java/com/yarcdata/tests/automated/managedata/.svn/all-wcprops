@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/src/test/java/com/yarcdata/tests/automated/managedata
+END
+TestcaseDeleteDataFileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/2212/UR/trunk/tests/urika-gem-automation/src/test/java/com/yarcdata/tests/automated/managedata/TestcaseDeleteDataFileTest.java
+END
+TestcaseAddLocalDataFileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/2201/UR/trunk/tests/urika-gem-automation/src/test/java/com/yarcdata/tests/automated/managedata/TestcaseAddLocalDataFileTest.java
+END
+TestcaseSearchDataFileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/2213/UR/trunk/tests/urika-gem-automation/src/test/java/com/yarcdata/tests/automated/managedata/TestcaseSearchDataFileTest.java
+END

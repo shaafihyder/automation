@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62983" started-at="2013-03-25T20:00:04Z" finished-at="2013-03-25T20:01:07Z">
+    <groups>
+      <group name="SPARQLQuery">
+        <method signature="Testcase001SparqlQueryTest.Test()[pri:0, instance:com.project.automated.framework.sparqlquery.Testcase001SparqlQueryTest@3d3e58d4]" name="Test" class="com.project.automated.framework.sparqlquery.Testcase001SparqlQueryTest"/>
+      </group> <!-- SPARQLQuery -->
+    </groups>
+    <test name="Default test" duration-ms="62983" started-at="2013-03-25T20:00:04Z" finished-at="2013-03-25T20:01:07Z">
+      <class name="com.project.automated.framework.sparqlquery.Testcase001SparqlQueryTest">
+        <test-method status="PASS" signature="Test()[pri:0, instance:com.project.automated.framework.sparqlquery.Testcase001SparqlQueryTest@3d3e58d4]" name="Test" duration-ms="62972" started-at="2013-03-25T13:00:04Z" finished-at="2013-03-25T13:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.project.automated.framework.sparqlquery.Testcase001SparqlQueryTest@3d3e58d4]" name="AfterTest" is-config="true" duration-ms="1" started-at="2013-03-25T13:01:07Z" finished-at="2013-03-25T13:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.project.automated.framework.sparqlquery.Testcase001SparqlQueryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2133/UR/trunk/tests/urika-gem-automation
+END
+testng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2173/UR/trunk/tests/urika-gem-automation/testng.xml
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2322/UR/trunk/tests/urika-gem-automation/pom.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2134/UR/trunk/tests/urika-gem-automation/.classpath
+END

@@ -1,0 +1,9 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>This XML file holds data for test-cases</comment>
+	<entry key="URIKA_MACHINE_NALA">http://nala1</entry>
+	<entry key="sparqlquery.Testcase001SparqlQueryTest.sVerifySPARQL2">GraduateStudent101</entry>
+	<entry key="sparqlquery.Testcase001SparqlQueryTest.sVerifySPARQL3">GraduateStudent124</entry>
+	<entry key="sparqlquery.Testcase001SparqlQueryTest.sVerifySPARQL4">GraduateStudent142</entry>
+</properties>
+

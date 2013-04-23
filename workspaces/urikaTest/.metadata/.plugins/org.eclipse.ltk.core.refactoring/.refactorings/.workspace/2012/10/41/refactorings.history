@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;automated&apos; to &apos;urika-gem-automation&apos;&#x0D;&#x0A;- Original element: &apos;automated&apos;&#x0D;&#x0A;- Renamed element: &apos;automated&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;automated&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=automated" name="urika-gem-automation" references="true" stamp="1349979141843" version="1.0"/>
+</session>

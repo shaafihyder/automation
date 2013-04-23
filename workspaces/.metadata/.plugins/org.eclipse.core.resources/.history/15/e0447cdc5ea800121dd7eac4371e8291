@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UrikaSmokeTest">
+ 
+  <test verbose="2" name="Default test" preserve-order="true">
+    <classes> 
+      <class name="com.project.automated.framework.sparqlquery.Testcase001SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase002SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase003SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase004SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase005SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase006SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase007SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase008SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase009SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase0010SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase011SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase012SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase013SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase014SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase015SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase016SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase017SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase018SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase019SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase020SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase021SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase022SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase023SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase024SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase025SparqlQueryTest"/>
+      <class name="com.project.automated.framework.sparqlquery.Testcase026SparqlQueryTest"/>
+      
+    </classes>
+  </test> <!-- Default test   -->
+</suite> <!-- Default suite -->
+

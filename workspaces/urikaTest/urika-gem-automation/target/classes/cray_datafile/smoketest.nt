@@ -1,0 +1,4 @@
+<http://dbpedia.org/resource/Duisburg>  <http://dbpedia.org/ontology/administrativeDistrict>    <http://dbpedia.org/resource/D%C3%BCsseldorf> .
+<http://dbpedia.org/resource/Duisburg>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://dbpedia.org/ontology/Place> .
+
+

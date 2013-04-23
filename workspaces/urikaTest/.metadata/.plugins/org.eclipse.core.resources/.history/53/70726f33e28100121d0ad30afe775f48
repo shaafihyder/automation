@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.yarcdata.tests</groupId>
+  <artifactId>automated</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>urika-gem-automation</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+  	<project.datalibrary>Desktop/automation/workspaces/urikaTest/urika-gem-automation/src/main/java/com/yarcdata/tests/automated/libraries/DataLibrary.properties</project.datalibrary>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    
+     
+        <!-- selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>2.29.0</version>
+        </dependency>
+
+        <!-- selenium-server -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>2.29.0</version>
+        </dependency>
+
+        <!-- selenium-firefox-driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>2.29.0</version>
+        </dependency>
+
+        <!-- selenium-chrome-driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>2.29.0</version>
+        </dependency>
+          
+        <!-- send email through gmail -->
+        <!--  
+        <dependency>
+	 		<groupId>javax.mail</groupId>
+	 		<artifactId>mail</artifactId>
+	 		<version>1.4.3</version>
+    	</dependency>
+    	-->
+    	<dependency>
+  			<groupId>org.testng</groupId>
+  			<artifactId>testng</artifactId>
+ 			 <version>6.1.1</version>
+<!--   			<scope>test</scope> -->
+		</dependency>
+		
+		
+
+ </dependencies>
+    
+  <build>
+  	<pluginManagement>
+  	<plugins>
+  	  
+  	  <!-- Surefire Report -->
+  	  <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.12.3</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+      
+          
+  	</plugins>
+  	</pluginManagement>
+  	</build>
+  			
+  	
+</project>
+

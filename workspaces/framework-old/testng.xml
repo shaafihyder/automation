@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UrikaSmokeTest">
+ 
+  <test verbose="2" name="Default test" preserve-order="true">
+    <classes> 
+      <class name="com.project.automated.framework.managedatabases.Testcase001BrowserLaunchQuitTest"/>
+      <class name="com.project.automated.framework.managedatabases.Testcase002LaunchLoginUrikaTest"/>
+      <class name="com.yarcdata.tests.automated.general.TestcaseCaptureScreenshotTest"/>
+      <class name="com.yarcdata.tests.automated.launchloginquit.TestcaseBrowserLaunchQuitTest"/>
+      <class name="com.yarcdata.tests.automated.launchloginquit.TestcaseLaunchLoginUrikaTest"/>
+      <class name="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabDashboardTest"/>
+      <class name="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabManageDataTest"/>
+      <class name="com.yarcdata.tests.automated.managedata.TestcaseSearchDataFileTest"/>
+      <class name="com.yarcdata.tests.automated.managedata.TestcaseAddLocalDataFileTest"/>
+      <class name="com.yarcdata.tests.automated.managedata.TestcaseDeleteDataFileTest"/>
+      <class name="com.yarcdata.tests.automated.report.TestcaseSendReportTest"/>
+     
+    </classes>
+  </test> <!-- Default test   -->
+</suite> <!-- Default suite -->
+

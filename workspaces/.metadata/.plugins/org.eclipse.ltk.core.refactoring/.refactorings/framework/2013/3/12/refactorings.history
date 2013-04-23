@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;framework/src/main/java/com/project/automated/framework/libraries/DataLibraryXML.properties.xml&apos; to &apos;DataLibraryXML.properties&apos;" description="Rename resource &apos;DataLibraryXML.properties.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/project/automated/framework/libraries/DataLibraryXML.properties.xml" name="DataLibraryXML.properties" stamp="1363684962244" updateReferences="true"/>
+</session>

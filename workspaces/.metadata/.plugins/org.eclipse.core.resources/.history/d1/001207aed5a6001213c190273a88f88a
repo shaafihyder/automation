@@ -1,0 +1,114 @@
+package com.project.automated.framework.sparqlquery;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.project.automated.framework.libraries.GlobalsLibrary;
+import com.project.automated.framework.libraries.MethodsLibrary;
+import com.project.automated.framework.libraries.FunctionsLibrary;
+import com.project.automated.framework.libraries.Superclass;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterClass;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeGroups;
+
+
+public class Testcase046SparqlQueryTest extends Superclass implements GlobalsLibrary{
+
+
+@Test(groups = {"SPARQLQuery"})
+public void Test (){
+			System.out.println("\n[" + this.getClass().getSimpleName() + "] " + new Exception().getStackTrace()[0].getMethodName() + " ()");
+	       	
+		    String sQuery046 = FunctionsLibrary.functionReadDataLibraryProperties (DATALIBRARY, "sparqlquery.Testcase001SparqlQueryTest.sQuery");
+		    String sVerifySPARQL1 =  FunctionsLibrary.functionReadDataLibraryProperties (DATALIBRARY, "sparqlquery.Testcase001SparqlQueryTest.sVerifySPARQL1"); 
+		    String sVerifySPARQL2 =  FunctionsLibrary.functionReadDataLibraryProperties (DATALIBRARY, "sparqlquery.Testcase001SparqlQueryTest.sVerifySPARQL2");
+		    String sVerifySPARQL3 =  FunctionsLibrary.functionReadDataLibraryProperties (DATALIBRARY, "sparqlquery.Testcase001SparqlQueryTest.sVerifySPARQL3");
+		    String sVerifySPARQL4 =  FunctionsLibrary.functionReadDataLibraryProperties (DATALIBRARY, "sparqlquery.Testcase001SparqlQueryTest.sVerifySPARQL4");
+			
+	       	// IMPORT DATA
+	       	MethodsLibrary.objectPushbuttonTabDashboard_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonTabManageData_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonImportAddData_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldImportNameYourArtifact_enterdata ("AUTOMATION-Artifact-lubm0", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldImportComment_enterdata ("AUTOMATION-Artifact-lubm0", TIME_OUT);
+	       	MethodsLibrary.objectPushButtonImportDataCancel_click (TIME_OUT);
+	       	
+	       	// NEW DATABASE
+	       	MethodsLibrary.objectPushButtonTabManageDatabase_click (TIME_OUT);
+	        MethodsLibrary.objectPushbuttonNewDatabase_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldNewDatabaseName_enterdata ("AUTOMATION-Database", TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonNewDatabaseAddData_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldNewDatabaseSearch_enterdata("AUTOMATION", TIME_OUT);
+	       	MethodsLibrary.objectCheckboxNewDatabase_check (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonNewDatabaseSubmit_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStart_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStartConfirm_click (TIME_OUT);
+	       	
+	       	// SPARQL
+	       	MethodsLibrary.objectPushbuttonSparqlQuery_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryClear_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("You are about to see Sparql query", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click (sQuery002, TIME_OUT);
+	       	
+			// RESULTS IN BROWSER
+	       	MethodsLibrary.objectPushbuttonSparqlQueryResultsInBrowserRadio1_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryExecute_click (TIME_OUT);
+	       	MethodsLibrary.objectPanelSparqlQueryBrowserResults_exists (TIME_OUT*TIME_OUT);
+	       	
+	       	// VALIDATION 1
+	       	MethodsLibrary.objectPushbuttonSparqlQuery_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryClear_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("VALIDATION 1: Verify browser results...", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("You are about to see Sparql query", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click (sQuery002, TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryResultsInBrowserRadio1_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryExecute_click (TIME_OUT);
+	       	MethodsLibrary.objectPanelSparqlQueryBrowserResults_exists (TIME_OUT*TIME_OUT);
+	       	MethodsLibrary.methodVerify_BrowserResultsValidation (sVerifySPARQL1, TIME_OUT);
+	       	
+	       	// VALIDATION 2
+	       	MethodsLibrary.objectPushbuttonSparqlQuery_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryClear_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("VALIDATION 2: Verify browser results...", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("You are about to see Sparql query", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click (sQuery002, TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryResultsInBrowserRadio1_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryExecute_click (TIME_OUT);
+	       	MethodsLibrary.objectPanelSparqlQueryBrowserResults_exists (TIME_OUT*TIME_OUT);
+	       	MethodsLibrary.methodVerify_BrowserResultsValidation (sVerifySPARQL2, TIME_OUT);
+	       	
+	       	// VALIDATION 3
+	       	MethodsLibrary.objectPushbuttonSparqlQuery_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryClear_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("VALIDATION 3: Verify browser results...", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("You are about to see Sparql query", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click (sQuery002, TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryResultsInBrowserRadio1_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryExecute_click (TIME_OUT);
+	       	MethodsLibrary.objectPanelSparqlQueryBrowserResults_exists (TIME_OUT*TIME_OUT);
+	       	MethodsLibrary.methodVerify_BrowserResultsValidation (sVerifySPARQL3, TIME_OUT);
+	       	
+	       	// VALIDATION 4
+	       	MethodsLibrary.objectPushbuttonSparqlQuery_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryClear_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("VALIDATION 4: Verify browser results...", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("You are about to see Sparql query", TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click (sQuery002, TIME_OUT);
+	      	MethodsLibrary.objectPushbuttonSparqlQueryResultsInBrowserRadio1_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryExecute_click (TIME_OUT);
+	       	MethodsLibrary.methodVerify_BrowserResultsValidation (sVerifySPARQL4, TIME_OUT);
+
+}
+
+}	        
+	   

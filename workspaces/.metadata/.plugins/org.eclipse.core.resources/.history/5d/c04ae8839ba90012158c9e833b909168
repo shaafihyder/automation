@@ -1,0 +1,63 @@
+package com.project.automated.framework.libraries;
+import java.io.*;
+import java.util.InvalidPropertiesFormatException;
+import java.util.Properties;
+import java.util.logging.Logger;
+public interface GlobalsLibrary {
+
+	    String shaafiGlobalLibraryTest = "GlobalLibrary successfully connected";
+	    
+	    //Connect to related files...
+	    FunctionsLibrary FunctionsLibrary = new FunctionsLibrary ();
+	    MethodsLibrary MethodsLibrary = new MethodsLibrary ();
+	    
+	    String sFileSeparator = System.getProperty ("file.separator"); // '/' Linux or '\\' Windows
+		
+	    // Directory where code is been placed in
+	    String sPathUserDir = System.getProperty ("user.dir"); // /Users/shyder/Desktop/automation/workspaces/framework
+		String sPathSrcMainJava = "src" + sFileSeparator + "main" + sFileSeparator + "java";
+		String sPathSrcTestJava = "src" + sFileSeparator + "test" + sFileSeparator + "java";
+		String sPathSrcTestResources = "src" + sFileSeparator + "test" + sFileSeparator + "resources";
+		String sPathPackage = "com" + sFileSeparator + "project" + sFileSeparator + "automated" + sFileSeparator + "framework";
+		
+		static public final String HOME_LIBRARIES = sPathSrcMainJava + sFileSeparator + sPathPackage + sFileSeparator + "libraries";
+		static public final String HOME_SUPERCLASSES = sPathSrcMainJava + sFileSeparator + sPathPackage + sFileSeparator + "superclasses";
+		static public final String HOME_TEST_SUITE = sPathSrcTestJava + sFileSeparator + sPathPackage;
+		static public final String HOME_RESOURCES = sPathSrcTestJava + sFileSeparator + sPathSrcTestResources;
+		static public final String HOME_GLOBALSCONSTANTS = sPathSrcTestJava + sFileSeparator + sPathSrcTestResources + sFileSeparator + "GlobalsConstants.xml";
+		
+		
+		//String sPath = sPathUserDir + sFileSeparator + "src" + "main" + "java" + "com" + "project" + "automated" + "framework" + "libraries";
+		//sPathLibraries = sPath + //Users/shyder/Desktop/automation/workspaces/framework/src/main/java/com/project/automated/framework/libraries;
+		
+		//if (System.getProperty("os.name").contains("Win")){
+		//	sPathLibraries = "C:\\Users\\shyder\\Desktop\\automation\\workspaces\\framework\\src\\main\\java\\com\\project\\automated\\framework\\libraries";}
+		
+		
+	    /*
+	    static public final String DESKTOP_HOME = FunctionsLibrary.functionGetPathDesktop();
+	    static public final String LIBRARIES_HOME = FunctionsLibrary.functionGetPathLibraries();
+	    static public final String TESTCASE_SUITE_HOME = FunctionsLibrary.functionGetPathTestcaseDirectories();
+	    static public final String TEST_OUTPUT_HOME = FunctionsLibrary.functionGetPathTestOutputReports();
+	    static public final String GLOBALSCONSTANTS_XML_HOME = FunctionsLibrary.functionGetPathGlobalsConstantsXML ();
+	    static public final String RESOURCES_FOLDER_HOME = FunctionsLibrary.functionGetPathResourcesFolder ();
+	    static public final String USER_HOME = FunctionsLibrary.functionGetPathUserDirectory();
+	    static public final String JAVA_HOME = FunctionsLibrary.functionGetPathJavaInstallationDir ();
+	    static public final String JAVA_CLASSPTH_HOME = FunctionsLibrary.functionGetPathJavaClasspath ();
+	    */
+	    static public final String OS_NAME_ARCHITECTURE = FunctionsLibrary.functionGetOSNameOSArchitecture();
+	    static public final String USER_NAME = FunctionsLibrary.functionGetUsername ();
+	    static public final String JAVA_VERSION = FunctionsLibrary.functionGetJavaVersion ();
+	    static public final String BROWSER_TYPE  = FunctionsLibrary.functionReadDataLibraryXML(HOME_GLOBALSCONSTANTS, "BROWSER_FIREFOX");
+	    static public final String APP_USERNAME  = FunctionsLibrary.functionReadDataLibraryXML(HOME_GLOBALSCONSTANTS, "APP_USERNAME");
+	    static public final String APP_PASSWORD  = FunctionsLibrary.functionReadDataLibraryXML(HOME_GLOBALSCONSTANTS, "APP_PASSWORD");
+	    static public final String EMAIL_SENDTO = FunctionsLibrary.functionReadDataLibraryXML(HOME_GLOBALSCONSTANTS, "EMAIL_SENDTO");
+	    static public final String URIKA_MACHINE = "http://nala1";
+	    static public final long TIME_OUT = 5;
+	    static public final String SLASH = FunctionsLibrary.functionGetDirSeprator ();
+	    
+	    //TEST SUITE PROPERTIES DECLARATION
+	    static public final String SPARQLQUERY_PROPS_HOME = FunctionsLibrary.functionGetPathSparqlQueryProperties ();
+	    static public final String BUILDDATABASE_PROPS_HOME = FunctionsLibrary.functionGetPathBuildDatabasesProperties ();
+	    
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseCaptureScreenshotTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseBrowserLaunchQuitTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseLaunchLoginUrikaTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseSelectTabDashboardTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseSelectTabManageDataTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseSearchDataFileTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseAddLocalDataFileTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///C:\automation\workspaces\urikaTest\urika-gem-automation\src\test\resources\Screenshots\TestcaseDeleteDataFileTest.jpg" alt=""/><br />]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured while executing testcase...]]>
+    </line>
+  </reporter-output>
+  <suite name="UrikaSmokeTest" duration-ms="401816" started-at="2012-11-05T10:15:32Z" finished-at="2012-11-05T10:22:14Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="com.yarcdata.tests.automated.general.TestcaseCaptureScreenshotTest.Test()" name="Test" class="com.yarcdata.tests.automated.general.TestcaseCaptureScreenshotTest"/>
+        <method signature="com.yarcdata.tests.automated.general.TestcaseGetEnvDetailsTest.Test()" name="Test" class="com.yarcdata.tests.automated.general.TestcaseGetEnvDetailsTest"/>
+        <method signature="com.yarcdata.tests.automated.general.TestcaseRemoveScreenshotsTest.Test()" name="Test" class="com.yarcdata.tests.automated.general.TestcaseRemoveScreenshotsTest"/>
+        <method signature="com.yarcdata.tests.automated.launchloginquit.TestcaseBrowserLaunchQuitTest.Test()" name="Test" class="com.yarcdata.tests.automated.launchloginquit.TestcaseBrowserLaunchQuitTest"/>
+        <method signature="com.yarcdata.tests.automated.launchloginquit.TestcaseLaunchLoginUrikaTest.Test()" name="Test" class="com.yarcdata.tests.automated.launchloginquit.TestcaseLaunchLoginUrikaTest"/>
+        <method signature="com.yarcdata.tests.automated.managedata.TestcaseAddLocalDataFileTest.Test()" name="Test" class="com.yarcdata.tests.automated.managedata.TestcaseAddLocalDataFileTest"/>
+        <method signature="com.yarcdata.tests.automated.managedata.TestcaseDeleteDataFileTest.Test()" name="Test" class="com.yarcdata.tests.automated.managedata.TestcaseDeleteDataFileTest"/>
+        <method signature="com.yarcdata.tests.automated.managedata.TestcaseSearchDataFileTest.Test()" name="Test" class="com.yarcdata.tests.automated.managedata.TestcaseSearchDataFileTest"/>
+        <method signature="com.yarcdata.tests.automated.report.TestcaseSendReportTest.Test()" name="Test" class="com.yarcdata.tests.automated.report.TestcaseSendReportTest"/>
+        <method signature="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabDashboardTest.Test()" name="Test" class="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabDashboardTest"/>
+        <method signature="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabManageDataTest.Test()" name="Test" class="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabManageDataTest"/>
+      </group>
+    </groups>
+    <test name="Default test" duration-ms="401816" started-at="2012-11-05T10:15:32Z" finished-at="2012-11-05T10:22:14Z">
+      <class name="com.yarcdata.tests.automated.launchloginquit.TestcaseLaunchLoginUrikaTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="37816" started-at="2012-11-05T10:16:05Z" finished-at="2012-11-05T10:16:43Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.managedata.TestcaseSearchDataFileTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="67130" started-at="2012-11-05T10:18:17Z" finished-at="2012-11-05T10:19:24Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.general.TestcaseCaptureScreenshotTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="470" started-at="2012-11-05T10:15:39Z" finished-at="2012-11-05T10:15:40Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.general.TestcaseRemoveScreenshotsTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="3" started-at="2012-11-05T10:15:39Z" finished-at="2012-11-05T10:15:39Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.managedata.TestcaseDeleteDataFileTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="72536" started-at="2012-11-05T10:21:01Z" finished-at="2012-11-05T10:22:14Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.launchloginquit.TestcaseBrowserLaunchQuitTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="25348" started-at="2012-11-05T10:15:40Z" finished-at="2012-11-05T10:16:05Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabManageDataTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="45921" started-at="2012-11-05T10:17:31Z" finished-at="2012-11-05T10:18:17Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.report.TestcaseSendReportTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="0" started-at="2012-11-05T10:22:14Z" finished-at="2012-11-05T10:22:14Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.managedata.TestcaseAddLocalDataFileTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="97546" started-at="2012-11-05T10:19:24Z" finished-at="2012-11-05T10:21:01Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.general.TestcaseGetEnvDetailsTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="6975" started-at="2012-11-05T10:15:32Z" finished-at="2012-11-05T10:15:39Z">
+        </test-method>
+      </class>
+      <class name="com.yarcdata.tests.automated.selecttabs.TestcaseSelectTabDashboardTest">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="48049" started-at="2012-11-05T10:16:43Z" finished-at="2012-11-05T10:17:31Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
