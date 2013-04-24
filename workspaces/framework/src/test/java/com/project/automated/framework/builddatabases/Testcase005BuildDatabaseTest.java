@@ -59,17 +59,6 @@ public void Test (){
 	       	MethodsLibrary.objectTextfieldImportComment_enterdata (sArtifact, TIME_OUT);
 	       	MethodsLibrary.objectPushButtonImportDataCancel_click (TIME_OUT);
 	       	
-	       	// NEW DATABASE
-	       	MethodsLibrary.objectPushButtonTabManageDatabase_click (TIME_OUT);
-	        MethodsLibrary.objectPushbuttonNewDatabase_click (TIME_OUT);
-	       	MethodsLibrary.objectTextfieldNewDatabaseName_enterdata (sDatabase, TIME_OUT);
-	       	MethodsLibrary.objectPushbuttonNewDatabaseAddData_click (TIME_OUT);
-	       	MethodsLibrary.objectTextfieldNewDatabaseSearch_enterdata(sSearchArtifact, TIME_OUT);
-	       	MethodsLibrary.objectCheckboxNewDatabase_check (TIME_OUT);
-	       	MethodsLibrary.objectPushbuttonNewDatabaseSubmit_click (TIME_OUT);
-	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStart_click (TIME_OUT);
-	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStartConfirm_click (TIME_OUT);
-	       	MethodsLibrary.objectPushButtonTabManageDatabase_click (TIME_OUT);
 
 }
 }

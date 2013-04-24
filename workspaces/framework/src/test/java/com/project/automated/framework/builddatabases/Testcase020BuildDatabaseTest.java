@@ -70,6 +70,12 @@ public void Test (){
 	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStart_click (TIME_OUT);
 	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStartConfirm_click (TIME_OUT);
 	       	MethodsLibrary.objectPushButtonTabManageDatabase_click (TIME_OUT);
+	    	MethodsLibrary.objectPushbuttonSparqlQuery_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryClear_click (TIME_OUT);
+	       	MethodsLibrary.objectTextfieldSparqlQueryNew_click ("Test Suite: Build database...", TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryResultsInBrowserRadio1_click (TIME_OUT);
+	       
+	       
         		} 
 }
 	        

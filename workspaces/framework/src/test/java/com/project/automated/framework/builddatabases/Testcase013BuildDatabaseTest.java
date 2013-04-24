@@ -67,9 +67,7 @@ public void Test (){
 	       	MethodsLibrary.objectCheckboxNewDatabase_check (TIME_OUT);
 	       	MethodsLibrary.objectPushbuttonNewDatabaseSubmit_click (TIME_OUT);
 	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStart_click (TIME_OUT);
-	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStartConfirm_click (TIME_OUT);
-	       	MethodsLibrary.objectPushButtonTabManageDatabase_click (TIME_OUT);
-
+	 
   	} 
 }
 	        

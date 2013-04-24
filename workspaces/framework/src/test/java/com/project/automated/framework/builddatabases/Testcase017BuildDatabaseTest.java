@@ -70,7 +70,9 @@ public void Test (){
 	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStart_click (TIME_OUT);
 	       	MethodsLibrary.objectPushbuttonNewDatabaseApplyStartConfirm_click (TIME_OUT);
 	       	MethodsLibrary.objectPushButtonTabManageDatabase_click (TIME_OUT);
-
+	    	MethodsLibrary.objectPushbuttonSparqlQuery_click (TIME_OUT);
+	       	MethodsLibrary.objectPushbuttonSparqlQueryClear_click (TIME_OUT);
+	       
  	} 
 }
 	        
