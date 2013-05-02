@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UrikaSmokeTest">
+ 
+  <test verbose="2" name="Default test" preserve-order="true">
+    <classes> 
+      <class name="com.project.automated.framework.builddatabases.Testcase001BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase002BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase003BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase004BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase005BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase006BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase007BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase008BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase009BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase0010BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase011BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase012BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase013BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase014BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase015BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase016BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase017BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase018BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase019BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase020BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase021BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase022BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase023BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase024BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase025BuildDatabaseTest"/>
+      <class name="com.project.automated.framework.builddatabases.Testcase026BuildDatabaseTest"/>
+      
+    </classes>
+  </test> <!-- Default test   -->
+</suite> <!-- Default suite -->
+

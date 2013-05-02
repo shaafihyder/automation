@@ -1,0 +1,189 @@
+!SESSION 2013-02-26 10:00:52.363 -----------------------------------------------
+eclipse.buildId=3.1.0.201209120902-M1-e42
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-02-26 10:07:30.363
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-02-26 10:07:30.363
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2013-02-26 10:07:30.364
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-02-26 10:07:30.364
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-02-26 10:07:30.364
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-26 10:13:43.043
+!MESSAGE NLS unused message: LifecycleMappingPropertyPage_this_message in: org.eclipse.m2e.core.ui.internal.messages
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-02-26 10:14:04.835
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-02-26 10:14:04.850
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-02-26 10:14:04.852
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-02-26 10:14:04.854
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-02-26 10:16:18.713
+!MESSAGE The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:1.74 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:18.854
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:22.247
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:22.525
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.031
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.075
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.117
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.170
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.211
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.265
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.305
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.345
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.385
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.428
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.474
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.529
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.585
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.627
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.666
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.824
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.926
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:27.973
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.051
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.123
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.170
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.216
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.268
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.322
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.364
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.418
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.461
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.506
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.545
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.605
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.662
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:28.705
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.044
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.082
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.144
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.193
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.244
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.284
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.335
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.377
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.422
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.467
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.505
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.545
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.586
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.626
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.689
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-02-26 10:16:29.745
+!MESSAGE Could not read parent project
